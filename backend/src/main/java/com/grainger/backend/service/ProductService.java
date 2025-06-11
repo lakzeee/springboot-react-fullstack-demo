@@ -1,10 +1,12 @@
 package com.grainger.backend.service;
 
-import com.grainger.backend.entity.Product;
+import com.grainger.backend.dto.ProductCreateDto;
+import com.grainger.backend.dto.ProductResponseDto;
 
 import java.util.List;
 
 public interface ProductService {
-    List<Product> getAllProducts();
-    Product createProduct(Product product);
+    List<ProductResponseDto> getAllProducts();
+    ProductResponseDto createProduct(ProductCreateDto productCreateDto);
+    ProductResponseDto getProductById(Long id);
 } 
