@@ -35,6 +35,7 @@ public class ProductServiceImpl implements ProductService {
     public ProductResponseDto createProduct(ProductCreateDto productCreateDto) {
         Product product = productMapper.toProduct(productCreateDto);
         Product savedProduct = productRepository.save(product);
+
         return productMapper.toProductResponseDto(savedProduct);
     }
 

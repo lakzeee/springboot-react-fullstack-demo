@@ -1,4 +1,4 @@
-# Grainger Demo
+# Springboot React Full-stack Demo
 
 This is a full-stack web application built for coding demonstration. It features a React frontend using Next.js and a Java Spring Boot backend, with a PostgreSQL database for persistence. The entire environment is containerized and orchestrated using Docker and Docker Compose.
 

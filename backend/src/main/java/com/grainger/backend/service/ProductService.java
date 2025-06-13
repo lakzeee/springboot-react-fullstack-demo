@@ -9,4 +9,5 @@ public interface ProductService {
     List<ProductResponseDto> getAllProducts();
     ProductResponseDto createProduct(ProductCreateDto productCreateDto);
     ProductResponseDto getProductById(Long id);
+    
 } 
